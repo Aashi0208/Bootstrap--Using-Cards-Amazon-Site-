@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 style="text-align: center; color:darkblue">Application Form</h1>
+    <form>
+         <!-- fieldset
+          <fieldset>
+          <button>Button 1</button>
+          <button>Button 2</button>
+          <button>Button 3</button>
+          <button>Button 4</button>
+         </fieldset>
+        -->
+        <label>Name :</label>
+        <input type="text" placeholder="Enter your name"><br>
+     <lable for="pass">Password (8 Characters minimum) :</lable>
+       <input type="password" id="pass" name="Password" minlength="8" required><br>
+       <label>Volume </label><input type="range" value="Volume">
+     <label>D.O.B :</label>
+      <input type="date"><br>
+     <label>Gender :</label>
+      <input type="radio" value="Male" name="gender" >Male
+      <input type="radio" value="Female" name="gender" checked>Female<br>
+     <label>Email:</label>
+        <input type="email"><br>
+     <label>Courses</label>
+        <input type="checkbox" name="Courses" value="Full Stack">Full Stack
+        <input type="checkbox" name="Courses" value="Java">Java
+        <input type="checkbox" name="Courses" value="Python">Python<br>
+     <label>Department</label>
+      <select>
+        <option value="CSC" name="Department">CSC</option>
+        <option value="ECE" name="Department">ECE</option>
+        <option value="EEE" name="Department">EEE</option>
+        <option value="IT" name="Department">IT</option>
+      </select><br>
+      <label for="Feedback">Give us your feedback :</label>
+       <textarea id="Feedback" name="Feedback"></textarea><br>
+      <label>Upload File</label>
+    <input type="file"><br>
+      <label>Choose Your Color :</label>
+        <input type="color"><br>
+       <input type="submit" value="Submit">
+       <input type="Reset" value="Reset"><br>
+       <label>Button</label>
+       <input type="button" value="Submit"><br>
+       <input type="image" id="img"/ alt=Aircraft"
+         src="C:\Aashi\Images\Aircraft.jpeg">
+         
+    </form>
+    </body>
+</html>
